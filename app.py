@@ -72,7 +72,7 @@ df["volatility"] = (df["high_24h"] - df["low_24h"]).fillna(0)
 df["ath_gap_percentage"] = df["ath_change_percentage"].abs().fillna(0)
 
 # --- Title & Summary ---
-st.title("Crypto Market Dashboard")
+st.title("CryptoSight")
 st.markdown("Real-time cryptocurrency market analytics with insights into volatility, liquidity, and dominance.")
 
 # --- Display Key Metrics ---
