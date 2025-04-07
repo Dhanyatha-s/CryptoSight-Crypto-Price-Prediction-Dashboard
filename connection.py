@@ -2,9 +2,9 @@ from sqlalchemy import create_engine
 from snowflake.sqlalchemy import URL
 
 # snowflake connection 
-SNOWFLAKE_USER = "dhanya"
-SNOWFLAKE_PASSWORD = "RamaSitaSahitaHanuma@8"
-SNOWFLAKE_ACCOUNT = "oiaqyhv-ks32138"
+SNOWFLAKE_USER = "username"
+SNOWFLAKE_PASSWORD = "password"
+SNOWFLAKE_ACCOUNT = "Account_ID"
 SNOWFLAKE_WAREHOUSE = "cypto_warehouse"
 SNOWFLAKE_DATABASE = "crypto_db"
 SNOWFLAKE_SCHEMA = "crypto_star_schema"
